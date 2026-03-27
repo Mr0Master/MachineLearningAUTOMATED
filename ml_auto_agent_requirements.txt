@@ -1,0 +1,29 @@
+# AutoML Agent - Full Dependencies
+
+# Core
+pandas>=1.5.0
+numpy>=1.21.0
+scikit-learn>=1.0.0
+
+# Optional: Enhanced algorithms (highly recommended)
+xgboost>=1.7.0
+lightgbm>=4.0.0
+
+# File format support
+openpyxl>=3.0.0      # Excel files
+pyarrow>=10.0.0      # Parquet files
+
+# Optional: Advanced AutoML
+# autogluon>=0.6.0    # Full AutoML suite
+# tpot>=0.12.0        # Genetic algorithm AutoML
+
+# Optional: Deep Learning
+# torch>=2.0.0        # PyTorch
+# tensorflow>=2.12.0  # TensorFlow
+
+# Optional: Time Series
+# prophet>=1.1.0      # Time series forecasting
+
+# Optional: NLP
+# transformers>=4.20.0  # BERT, etc.
+# spacy>=3.5.0          # NLP toolkit
